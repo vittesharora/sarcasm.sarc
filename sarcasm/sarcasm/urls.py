@@ -19,7 +19,7 @@ from accounts.views import register,leaderboard,instructions,forum,prize,home
 from game.views import play
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',home,name='home'),
+    path('', home, name='home'),
     path('register',register,name='register'),
     path('leaderboard',leaderboard, name='leaderboard'),
     path('instructions',instructions, name='instructions'),

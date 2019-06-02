@@ -1,0 +1,16 @@
+<!-- HTML file for theme 1 -->
+{% extends 'game/base.html' %}
+{% block head %}
+<!-- enter the css file link here -->
+<!-- In case all three have different css, enter {% blockhead %} inside an if condition -->
+{% endblock %}
+{% block body %}
+<!-- Here write the display of question -->
+{% if pk<10 %}
+	<!-- add code for theme 1 -->
+{% elif 10< pk <=20 %}
+	<!-- add code for theme 2 -->
+{% elif 20< pk <=30 %}
+	<!-- add code for theme 3 -->
+{% endif %}			
+{% endblock %}
